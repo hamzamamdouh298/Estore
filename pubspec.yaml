@@ -1,0 +1,42 @@
+name: ec
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Corrected assets section indentation
+  assets:
+    - assets/images/1h.png
+    - assets/images/1l.png
+    - assets/images/1s.jpg
+    - assets/images/1p.png
+    - assets/images/1t.jpg
+    - assets/images/2p.png
+    - assets/images/3p.png
+    - assets/images/1pc.png
+    - assets/images/1m.png
+    - assets/images/1k.png
+    - assets/images/1mo.png
+    - assets/images/2k.png
+    - assets/images/2pc.png
+    - assets/images/login.gif
+    - assets/images/1.gif
+    
+    # - assets/images/a_dot_ham.jpeg
+
